@@ -1,160 +1,104 @@
-html {
-    scroll-behavior: smooth;
-} 
+@font-face {
+    font-family: league;
+    src: url(fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: sanchez;
+    src: url(fonts/Sanchezregular.otf);
+}
 
 body {
-    margin-top: 0;
+    margin-top: 60;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    color: #73736f;
+    color: #202020;
+    font-family: sanchez;
 }
 
-.content {
-    font-family: 'Ibarra Real Nova', serif;
+h2 {
+    font-family: league;
 }
 
-/* nav bar*/
-
-header {
-    width: 100%;
-    padding-bottom: 60px;
-    display: inline-block;
-}
-
-#last-element {
-    margin-right: 60px;
-}
-
-nav {
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-}
-
+/* nav bar */
 nav li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 0px;
     line-height: 70px;
     float: right;
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav a {
     text-decoration: none;
     cursor: pointer;
-    color: #73736f;
+    color: #202020;
 }
 
 nav a:visited {
     text-decoration: none;
-    color: #73736f;
+    color: #202020;
 }
 
-nav a:hover {
-    color: #3a3b3d;
+.nav-elements a:hover {
+    color: #202020;
+    text-decoration: underline;
+}
+
+#logo {
+    font-size: 60px;
+    font-family: league;
+    color: #202020;
+}
+
+#logo a:visited {
+    text-decoration: none;
+    color: #202020;
 }
 
 #logo a:hover {
+    text-decoration: none;
     cursor: pointer;
+    font-family: league;
+    color: #0066ff;
 }
 
-/* page separators*/
-
-#page2 {
-    width: 100%;
-    height: 110px;
+/* home page*/
+.home-cursor {
+  cursor: crosshair;   
 }
 
-#page3 {
-    width: 100%;
-    height: 110px;
+.home-container {
+    position: relative;
 }
 
-/* Home page*/
-
-img {
-  border-radius: 3%;
-}
-
-.home {
-    display: flex;
-    flex-direction: row;
-    margin-top: 75px;
-}
-
-.home-txt {
-    margin-left: 120px;
+.home-text {
+    position: absolute;
 }
 
 #name {
-    font-size: 110px;
+    font-family: league;
+    font-size: 135px;
 }
 
-#replaceStrings {
+#typeIt {
     font-size: 36px;
 }
 
-#desk {
-    margin-left: 200px;
+/* portfolio page */
+.page-title {
+    font-family: league;
+    font-size: 50px;
+    color: #0066ff;
 }
 
-/* About page */
-
-.about {
-    background-color: #e3f4f7;
-    display: flex;
-    flex-direction: row;
+.center {
+    text-align: center;
 }
 
-.about-image {
-    margin-left: 100px;
-    margin-right: 80px;
-}
-
-#profile {
-    border: 25px solid #e3f4f7;
-}
-
-
-#icons {
-    display: flex;
-    flex-direction: row;
-}
-
-.icon {
-    margin-right: 40px;
-}
-
-.icon:hover {
-    cursor: pointer;
-    animation: bounce 0.3s cubic-bezier(0.42, 0, 0.7, 0.5) 0s infinite alternate;
-}
-
-@keyframes bounce {
-  100% {
-    transform: translateY(10px);
-  }
-}
-
-.about-heading {
-    font-size: 30px;
-}
-
-.about-me {
-    margin-right: 92px;
-    font-size: 18px;
-    font-family: 'Libre Franklin', sans-serif;
-}
-
-.about-me {
-    line-height: 1.8;
-}
-
-/* Portfolio page */
-
+/* portfolio page -- OLD */
 .portfolio-heading {
     font-size: 30px;
     text-align: center;
@@ -192,4 +136,34 @@ img {
 .item:hover {
     opacity: 1;
     transition-duration: 0.25s;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #202020;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin-right: 40px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    animation: bounce 0.42s cubic-bezier(0.4, 0, 0.7, 0.5) 0s infinite alternate;
+}
+
+@keyframes bounce {
+  100% {
+    transform: translateY(10px);
+  }
 }

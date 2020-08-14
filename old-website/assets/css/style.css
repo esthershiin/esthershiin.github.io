@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+} 
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: #73736f;
+}
+
+.content {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/* nav bar*/
+
+header {
+    width: 100%;
+    padding-bottom: 60px;
+    display: inline-block;
+}
+
+#last-element {
+    margin-right: 60px;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 0px;
+    line-height: 70px;
+    float: right;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #73736f;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #73736f;
+}
+
+nav a:hover {
+    color: #3a3b3d;
+}
+
+#logo a:hover {
+    cursor: pointer;
+}
+
+/* page separators*/
+
+#page2 {
+    width: 100%;
+    height: 110px;
+}
+
+#page3 {
+    width: 100%;
+    height: 110px;
+}
+
+/* Home page*/
+
+img {
+  border-radius: 3%;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+}
+
+.home-txt {
+    margin-left: 120px;
+}
+
+#name {
+    font-size: 110px;
+}
+
+#replaceStrings {
+    font-size: 36px;
+}
+
+#desk {
+    margin-left: 200px;
+}
+
+/* About page */
+
+.about {
+    background-color: #e3f4f7;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-image {
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#profile {
+    border: 25px solid #e3f4f7;
+}
+
+
+#icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin-right: 40px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    animation: bounce 0.3s cubic-bezier(0.42, 0, 0.7, 0.5) 0s infinite alternate;
+}
+
+@keyframes bounce {
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.about-heading {
+    font-size: 30px;
+}
+
+.about-me {
+    margin-right: 92px;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.about-me {
+    line-height: 1.8;
+}
+
+/* Portfolio page */
+
+.portfolio-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #73736f;
+}
+
+.portfolio-heading-text {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    color: #73736f;
+    margin-bottom: 30px;
+}
+
+#illustrations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.item {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.item:hover {
+    opacity: 1;
+    transition-duration: 0.25s;
+}
