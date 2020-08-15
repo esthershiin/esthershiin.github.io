@@ -17,6 +17,11 @@ body {
     font-family: sanchez;
 }
 
+a {
+    color: #0066ff;
+    vertical-align: top;
+}
+
 h2 {
     font-family: league;
 }
@@ -28,7 +33,7 @@ nav li {
     margin-right: 0px;
     line-height: 70px;
     float: right;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav a {
@@ -48,7 +53,7 @@ nav a:visited {
 }
 
 #logo {
-    font-size: 60px;
+    font-size: 55px;
     font-family: league;
     color: #202020;
 }
@@ -90,7 +95,7 @@ nav a:visited {
 /* portfolio page */
 .page-title {
     font-family: league;
-    font-size: 50px;
+    font-size: 60px;
     color: #0066ff;
 }
 
@@ -114,7 +119,27 @@ nav a:visited {
 
 /* fun page */
 .fun-image {
-    height: 350px;
+    height: 400px;
+}
+
+/* graphics page */
+#illustrations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.es-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 /* footer */
