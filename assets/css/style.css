@@ -98,44 +98,23 @@ nav a:visited {
     text-align: center;
 }
 
-/* portfolio page -- OLD */
-.portfolio-heading {
-    font-size: 30px;
-    text-align: center;
-    color: #73736f;
-}
-
-.portfolio-heading-text {
-    font-size: 15px;
-    text-align: center;
-    line-height: 25px;
-    color: #73736f;
-    margin-bottom: 30px;
-}
-
-#illustrations {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-}
-
-.item {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.item-focus {
     opacity: 0.7;
 }
 
-.item:hover {
+.item-focus:hover {
     opacity: 1;
     transition-duration: 0.25s;
+}
+
+/* work page */
+.work-image {
+    height: 230px;
+}
+
+/* fun page */
+.fun-image {
+    height: 350px;
 }
 
 /* footer */
