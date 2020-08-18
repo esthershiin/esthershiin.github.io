@@ -112,16 +112,6 @@ nav a:visited {
     transition-duration: 0.25s;
 }
 
-/* work page */
-.work-image {
-    height: 230px;
-}
-
-/* fun page */
-.fun-image {
-    height: 400px;
-}
-
 /* graphics page */
 #illustrations {
     display: flex;
