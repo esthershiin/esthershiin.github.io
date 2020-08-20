@@ -132,6 +132,13 @@ nav a:visited {
     margin-bottom: 15px;
 }
 
+/* prototypes page */
+pre code {
+  background-color: #eee;
+  display: block;
+  padding: 20px;
+}
+
 /* footer */
 footer {
     width: 100%;
