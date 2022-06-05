@@ -4,9 +4,7 @@ new TypeIt('#typeIt', {
 })
 .type("software engineer.")
 .pause(500)
+.type(" designer.")
+.pause(500)
 .type(" innovator.")
-// .pause(500)
-// .type(" maker.")
-//.pause(500)
-//.type(" bear.")
 .go();
